@@ -1,0 +1,3 @@
+import React from 'react'
+function CompleteTask({ data }) { return <div className='rounded w-[300px] m-3 bg-blue-400 flex-shrink-0'><div className='flex justify-between items-center p-1'><h3 className='bg-red-600 rounded text-sm px-3 py-1 font-semibold w-fit m-2'>{data.category}</h3><h4 className='text-sm mr-1'>{data.date}</h4></div><h1 className='text-xl font-semibold px-2'>{data.taskTitle}</h1><h3 className='text-sm mt-2 px-2'>{data.description}</h3><div className='mt-4 px-2 pb-4'><button className='bg-green-600 px-2 py-1 w-full text-xs rounded' disabled>Completed</button></div></div> }
+export default CompleteTask
